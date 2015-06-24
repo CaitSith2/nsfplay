@@ -169,7 +169,10 @@ void CPULogger::Init (UINT8 reg_a, UINT8 reg_x)
 void CPULogger::Play ()
 {
     if (file && (log_level != 4 || frame_count == 0))
+	{
         ::fprintf(file, "PLAY(%d)\n", frame_count);
+		::fflush(file);
+	}
     ++frame_count;
 }
 

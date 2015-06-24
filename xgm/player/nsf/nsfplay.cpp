@@ -148,8 +148,12 @@ namespace xgm
     logcpu->SetNSF(nsf);
     if (log_level > 0)
     {
-        logcpu->SetFilename((*config)["LOG_CPU_FILE"]);
-        stack.Attach(logcpu);
+        //logcpu->SetFilename((*config)["LOG_CPU_FILE"]);
+	   char fname[_MAX_FNAME];
+	   _splitpath_s(nsf->filename,NULL,0,NULL,0,fname,_MAX_FNAME,NULL,0);
+	   strcat(fname,".log");
+        logcpu->SetFilename(fname);
+		stack.Attach(logcpu);
         cpu.SetLogger(logcpu);
         logcpu->SetCPU(&cpu);
     }
@@ -341,7 +345,10 @@ namespace xgm
     }
 
     if (logcpu->GetLogLevel() > 0)
+	{
+		
         logcpu->Begin(GetTitleString());
+	}
 
     // ‰‰‘tŒã‚ÉRAM‹óŠÔ‚ğ”j‰ó‚³‚ê‚éê‡‚ª‚ ‚é‚Ì‚ÅCÄƒ[ƒh
     Reload ();

@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{cb350019-374a-4a1e-9809-0205ef5f7f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{8760fb06-9c68-4042-9eee-cdea06435b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\nsf">
+      <UniqueIdentifier>{e235eaa7-3c3b-4fb3-8e3c-23a9af9468e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\plugin">
+      <UniqueIdentifier>{c7c22bae-6c2d-46c6-b2f0-ce931ce2aa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\plugin\kbmedia">
+      <UniqueIdentifier>{0527bf0c-a080-4207-b229-6c826b833d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\plugin\winamp2">
+      <UniqueIdentifier>{e5167456-d95b-4f7e-b71d-99c60e7f4aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices">
+      <UniqueIdentifier>{47b65928-bd55-471d-9b62-1e240ba7851e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\cpu">
+      <UniqueIdentifier>{e2fd732e-d2aa-42be-977a-e4fd65ffb8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\cpu\6502">
+      <UniqueIdentifier>{7403d07f-5d1e-4780-984a-bb0e1d9aeb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\cpu\6502\km6502">
+      <UniqueIdentifier>{b9a2f421-0db1-456c-8650-cfdca7eba8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\audio">
+      <UniqueIdentifier>{5de15e9f-1a21-4f54-a11a-ddd4d056104a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\sound">
+      <UniqueIdentifier>{70929ac5-92bc-41ed-93f1-325b0ae3747b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\sound\legacy">
+      <UniqueIdentifier>{74114751-0310-429e-8062-f8b32efcdca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\memory">
+      <UniqueIdentifier>{142e67cb-7d55-48b5-83d2-34a629e5311e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices\misc">
+      <UniqueIdentifier>{fc618e1b-a545-420e-ada6-c2e05d5c7b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{0cd61564-4640-4fa4-943c-b35b9b4b46b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debugout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="xgm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="xtypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="player\all.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\midi_interface.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\soundData.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\nsf\nsf.h">
+      <Filter>player\nsf</Filter>
+    </ClInclude>
+    <ClInclude Include="player\nsf\nsfconfig.h">
+      <Filter>player\nsf</Filter>
+    </ClInclude>
+    <ClInclude Include="player\nsf\nsfplay.h">
+      <Filter>player\nsf</Filter>
+    </ClInclude>
+    <ClInclude Include="player\nsf\pls\ppls.h">
+      <Filter>player\nsf</Filter>
+    </ClInclude>
+    <ClInclude Include="player\nsf\pls\sstream.h">
+      <Filter>player\nsf</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\kbmedia\sdk\kmp_pi.h">
+      <Filter>player\plugin\kbmedia</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\kbmedia\plugin.h">
+      <Filter>player\plugin\kbmedia</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\winamp2\sdk\FRONTEND.H">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\winamp2\sdk\IN2.H">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\winamp2\in_module.h">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClInclude>
+    <ClInclude Include="player\plugin\winamp2\sdk\OUT.H">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\all.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\device.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\devinfo.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\nes_cpu.h">
+      <Filter>devices\cpu\6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6280.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6280m.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502cd.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502ct.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502ex.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502ft.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502m.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km6502ot.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km65c02.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\km65c02m.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\CPU\km6502\kmconfig.h">
+      <Filter>devices\cpu\6502\km6502</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\amplifier.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\echo.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\filter.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\MedianFilter.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\mixer.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Audio\rconv.h">
+      <Filter>devices\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_apu.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_dmc.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_fds.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_fme7.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_mmc5.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_n106.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_vrc6.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\nes_vrc7.h">
+      <Filter>devices\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\2413tone.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\281btone.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\emu2149.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\emu2212.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\emu2413.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\emutypes.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_ft35.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_ft36.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_kt1.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_kt2.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_mo.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Sound\legacy\vrc7tone_rw.h">
+      <Filter>devices\sound\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Memory\nes_bank.h">
+      <Filter>devices\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Memory\nes_mem.h">
+      <Filter>devices\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Memory\ram64k.h">
+      <Filter>devices\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Misc\detect.h">
+      <Filter>devices\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Misc\log_cpu.h">
+      <Filter>devices\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="devices\Misc\nes_detect.h">
+      <Filter>devices\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\nsf_tag.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\tagctrl.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player\nsf\nsf.cpp">
+      <Filter>player\nsf</Filter>
+    </ClCompile>
+    <ClCompile Include="player\nsf\nsfconfig.cpp">
+      <Filter>player\nsf</Filter>
+    </ClCompile>
+    <ClCompile Include="player\nsf\nsfplay.cpp">
+      <Filter>player\nsf</Filter>
+    </ClCompile>
+    <ClCompile Include="player\nsf\pls\ppls.cpp">
+      <Filter>player\nsf</Filter>
+    </ClCompile>
+    <ClCompile Include="player\nsf\pls\sstream.cpp">
+      <Filter>player\nsf</Filter>
+    </ClCompile>
+    <ClCompile Include="player\plugin\winamp2\in_module.cpp">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClCompile>
+    <ClCompile Include="player\plugin\winamp2\in_module_msp.cpp">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClCompile>
+    <ClCompile Include="player\plugin\kbmedia\plugin.cpp">
+      <Filter>player\plugin\winamp2</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\CPU\nes_cpu.cpp">
+      <Filter>devices\cpu\6502</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Audio\echo.cpp">
+      <Filter>devices\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Audio\filter.cpp">
+      <Filter>devices\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Audio\MedianFilter.cpp">
+      <Filter>devices\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Audio\rconv.cpp">
+      <Filter>devices\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_apu.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_dmc.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_fds.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_fme7.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_mmc5.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_n106.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_vrc6.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\nes_vrc7.cpp">
+      <Filter>devices\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\legacy\emu2149.c">
+      <Filter>devices\sound\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\legacy\emu2212.c">
+      <Filter>devices\sound\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Sound\legacy\emu2413.c">
+      <Filter>devices\sound\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Memory\nes_bank.cpp">
+      <Filter>devices\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Memory\nes_mem.cpp">
+      <Filter>devices\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Memory\ram64k.cpp">
+      <Filter>devices\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Misc\detect.cpp">
+      <Filter>devices\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Misc\log_cpu.cpp">
+      <Filter>devices\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="devices\Misc\nes_detect.cpp">
+      <Filter>devices\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\nsf_tag.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
